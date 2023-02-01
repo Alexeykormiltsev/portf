@@ -1,0 +1,75 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+@import 'libs';
+
+.header {
+margin-bottom: 60px;
+    &__wrapper {
+        display: flex;
+        margin-bottom: 120px;
+    }
+
+    &__logo {
+        margin-right: 300px;
+    }
+
+    &__nav {
+        margin-top: 60px;
+    }
+
+    &__nav-list {
+        display: flex;
+    }
+
+    &__nav-item+&__nav-item {
+        margin-left: 50px;
+    }
+
+    &__main {
+        display: flex;
+    }
+
+    &__main-img {
+        width: 30%;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 30px;
+        margin-left: 50px;
+    }
+
+    &__main-name {
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 136px;
+        line-height: 184px;
+        text-transform: uppercase;
+        @extend %baloo-400;
+        color: #151313a2;
+    }
+
+    h2 {
+        @extend %baloo-500;
+        font-size: 94px;
+        line-height: 120px;
+        text-transform: uppercase;
+        color: #151313a2;
+    }
+}
+.about{
+ &__title{
+ @extend %baloo-500;
+  margin-left: 300px;
+  font-size: 38px;
+  line-height: 56px;
+  color: inherit;
+ }
+}
+
+
+
+@import 'media';
