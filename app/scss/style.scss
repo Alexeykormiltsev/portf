@@ -5,9 +5,11 @@
 @import 'libs';
 
 .main {
-  background-image: url(../main-bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-image: url(../main-bg.svg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+background: rgb(2,0,36);
+background: linear-gradient(109deg, rgba(2,0,36,1) 0%, rgba(0,35,255,0.9417016806722689) 46%, rgba(30,30,57,0.9641106442577031) 77%);
 }
 
 .header {
